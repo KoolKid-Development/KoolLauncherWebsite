@@ -45,8 +45,12 @@
   	<?php endif ?>
     <?php  if (isset($_SESSION['username'])) : ?>
     	<center><p>Welcome <strong><?php echo $_SESSION['username']; ?></strong>!</p>
-    	<p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p></center>
-     
+      <center><p> <a href="http://localhost/koolweb/KoolLauncher.exe">Download The Launcher</a> </p></center>
+    	<center><p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p></center>
+      
+    	
+    
+     </form>
 
     <?php endif ?>
 </div>
