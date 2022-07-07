@@ -4,8 +4,9 @@
 <head>
   <title>KoolLauncher | Login</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" href="img/favicon.png">	
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <meta content="McLauncher" name="description">
   <meta content="Minecraft, Server, Website, PORTAL!, KoolKid, koollauncher, Romaina" name="keywords">
   <meta name="description" content="Thanks for using KoolLauncherV3 By KoolKid you can edit this in index.php">
@@ -22,7 +23,8 @@
 	 
   <form method="post" action="login.php">
   	<?php include('errors.php'); ?>
-  	<div class="input-group">
+  	<center>
+	<div class="input-group">
   		<label>Username</label>
   		<input type="text" name="username" >
   	</div>
@@ -31,9 +33,8 @@
   		<input type="password" name="password">
   	</div>
   	<div class="input-group">
-  		<center><button type="submit" class="btn" name="login_user">Login</button></center>
+  	<button type="submit" class="btn" name="login_user">Login</button>
   	</div>
-  	<center>
     <p>
   		Not yet a member? <a href="register.php">Sign up</a>
   	</p>

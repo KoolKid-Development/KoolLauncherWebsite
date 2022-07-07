@@ -19,7 +19,7 @@
   <div class="header">
   	<h2>Register</h2>
   </div>
-	
+  <center>
   <form method="post" action="register.php">
   	<?php include('errors.php'); ?>
   	<div class="input-group">
@@ -39,11 +39,12 @@
   	  <input type="password" name="password_2">
   	</div>
   	<div class="input-group">
-  	  <center><button type="submit" class="btn" name="reg_user">Register</button></center>
+  	  <button type="submit" class="btn" name="reg_user">Register</button>
   	</div>
-  	<center><p>
+  	<p>
   		Already a member? <a href="login.php">Sign in</a>
-  	</p></center>
+  	</p>
+    </center>
   </form>
 </body>
 </html>
