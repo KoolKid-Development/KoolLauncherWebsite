@@ -16,7 +16,7 @@
 <html lang="en-us" class="no-js">
 	<head>
 		<meta charset="utf-8">
-        <title>KoolKid-Development</title>
+        <title>Your mc name here</title>
         <meta content="McLauncher" name="description">
         <meta content="Minecraft, Server, Website, PORTAL!, KoolKid, koollauncher, Romaina" name="keywords">
         <meta name="description" content="Thanks for using KoolLauncherV3 By KoolKid you can edit this in index.php">
@@ -50,7 +50,7 @@
 			<img src="img/logo.png" alt="" class="brand-logo" />
 			<div class="content">
 			<?php  if (isset($_SESSION['username'])) : ?>	
-			<h1 class="text-intro opacity-0">KoolKidDevelopment<br></h1>
+			<h1 class="text-intro opacity-0">Your mc name here!<br></h1>
 			<?php endif ?>
 				<p class="text-intro opacity-0">Welcome <?php echo $_SESSION['username'];?>!</p>
 				<br>			
